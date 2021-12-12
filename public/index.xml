@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>袁徐磊的个人站点</title>
+    <link>http://yuanxulei.com/</link>
+    <description>Recent content on 袁徐磊的个人站点</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 12 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://yuanxulei.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一小时搭建自己的永久网站</title>
+      <link>http://yuanxulei.com/posts/first-post/</link>
+      <pubDate>Sun, 12 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://yuanxulei.com/posts/first-post/</guid>
+      <description>第一篇博客，纪念自己工作10年，记录一个技术出身的创业者如何在一小时内搭建好自己的永久博客网站</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,97 @@
+baseURL: http://yuanxulei.com/
+languageCode: zh
+defaultContentLanguage: zh
+title: 袁徐磊的个人站点
+theme: PaperMod
+enableEmoji: true
+enableInlineShortcodes: true
+
+languages:
+  zh:
+    title: 袁徐磊的个人站点
+    languageName: 中文
+    weight: 1
+    menu:
+      main:
+        - name: Blog 归档
+          url: archives
+          weight: 5
+        - name: 搜索
+          url: search/
+          weight: 10
+        - name: 标签
+          url: tags/
+          weight: 10
+        - name: 分类
+          url: categories/
+          weight: 10
+    homeInfoParams:
+      title: 袁徐磊的个人站点
+      Content: >
+        创业者，前[阳光出行](https://www.jryghq.com/)CTO，红衣微工厂CEO。
+        目前在水滴奔跑中…
+
+  en:
+    title: Yuan Xulei
+    languageName: English
+    weight: 2
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: Categories
+          url: categories/
+          weight: 10
+    homeInfoParams:
+      title: Yuan Xulei
+      Content: >
+        Entrepreneur，Former CTO [阳光出行](https://www.jryghq.com/)，CEO Red Factory.
+        Now Waterdrop
+
+params:
+  description: "袁徐磊(Yuan Xulei)的个人站点"
+  author: 袁徐磊(Yuan Xulei)
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  comments: false
+
+  profileMode:
+    enabled: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/yxl"
+    - name: facebook
+      url: "https://www.facebook.com/yuan.xulei/"
+    - name: email
+      url: "mailto:hi@yxl.name"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/yuan-xulei-9092ba74/"
+
+  editPost:
+    URL: "https://github.com/yxl/yuanxulei/tree/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+taxonomies:
+  category: categories
+  tag: tags
